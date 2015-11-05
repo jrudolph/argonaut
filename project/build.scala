@@ -33,7 +33,7 @@ object build extends Build {
 
   val commonSettings = base ++
     ReplSettings.all ++
-    releaseSettings ++
+    //releaseSettings ++
     PublishSettings.all ++
     InfoSettings.all ++
     Seq(addCompilerPlugin("org.scalamacros" % "paradise" % paradiseVersion cross CrossVersion.full)) ++
